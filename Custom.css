@@ -1,0 +1,90 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* utility classes*/
+
+.img-responsive{
+    max-width: 100%;
+}
+
+.https://www.gannett-cdn.com/-mm-/5fecee677dd4f621fdc80929d18d2c9d11a273b3/c=0-249-4896-3015/local/-/media/2018/01/18/WIGroup/Milwaukee/636518827435755496-DEPCOL24-PHOTO6-DRINKS.JPG?width=3200&height=1680&fit=crop{
+    background: url(https://www.gannett-cdn.com/-mm-/5fecee677dd4f621fdc80929d18d2c9d11a273b3/c=0-249-4896-3015/local/-/media/2018/01/18/WIGroup/Milwaukee/636518827435755496-DEPCOL24-PHOTO6-DRINKS.JPG?width=3200&height=1680&fit=crop)
+    -webkit-background size:   cover;
+    Background size:  cover;
+    height: 100vh;
+    position: relative
+}
+
+.hero_wrapper { 
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    width: 1000px;
+    height: 400px;  
+}
+
+.hero_wrapper h1 {
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.hero_wrapper span{
+    margin-right: 28rem;
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.form_code {
+    text-align: center;
+
+}
+
+.form_code  .post_code {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: .6rem;
+    border: none;
+    outline:none;
+}
+
+.form_code  buttom {
+width: 20%;
+text-align: center;
+background-color: #00bab1;
+color: white;
+padding: .6rem;
+margin: 1rem  auto  0rem;
+border: none;
+border-radius:  .3rem;
+}
+
+/* product section */
+
+.product{
+    width: 80%;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product__list__item{
+    float: left;
+    width: 33.33%;
+    margin-left: auto;
+}
+
+.product__list__item:first-of-type{
+    margin-left: 0;
+}
+
+@media screen and ( max-width: 700px){
+    .product__list__item{
+        width: 100%;
+        float: none;
+    }
+}
